@@ -40,6 +40,11 @@ public class Main {
             }
         }while (n1 != 5);
     }
-
+    public static String solicitarcadena(String cad){
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Introduce una cadena de caracteres:");
+        cad = sc.nextLine();
+        return cad;
+    }
 
 }
